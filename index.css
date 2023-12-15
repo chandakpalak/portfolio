@@ -1,0 +1,175 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden;
+}
+
+#main {
+    position: relative;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+
+#page {
+    height: 100%; /* Adjust the height as needed */
+    width: 100%;
+    background-color: #0A2647;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+   
+}
+
+div h1 {
+   height: 27%;
+   font-size: 60px;
+   color: rgb(251, 252, 253);
+   
+   
+   
+
+}
+div h2 {
+    height: 47%;
+    font-family:' Lucida Console';
+    font-size: 40px;
+    
+    color:#e8db69; 
+    
+} 
+div h4{
+    height:53%;
+
+}
+button{
+    background-color: #e8db69; /* Green */
+  border: none;
+  color: rgb(24, 20, 20);
+  padding: 15px 32px;
+  position:relative;
+  font-size: 15px;
+  
+  top:3%;
+  right: 20%;
+  border-radius: 4px;
+  height:50px;
+  
+  
+  
+    
+    
+    
+}
+
+
+.circle-container {
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 8%;
+   
+    
+    
+}
+
+.circle-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    
+    
+}
+#page > #nav {
+    position:absolute;
+    z-index: 9;
+    height: 7%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    background-color: rgb(245, 247, 158); 
+    top:0%
+}
+
+#nav > h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    
+}
+#content-nav{
+    gap:150px;
+    display: flex;
+
+}
+#content-nav > a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(11, 10, 10);
+    font-family:  'Arial Narrow Bold';
+    font-size: 21px;
+}
+#nav>input {
+    border-radius: 3%;
+    border: 1px solid ;
+    padding :5px 5px;
+    text-transform: uppercase;
+}
+
+#page1{
+    height:100%;
+    width:100%;
+    background-color: rgb(255, 254, 254);
+    position: absolute;
+   
+   
+    
+}
+#page1>h1{
+    text-align: center;
+    font-size: 40 px;
+    color:black;
+    top: 200%;
+
+
+}
+ #page1 > h3 { 
+    text-align: center; 
+    font-family:sans-serif;
+    top: 0;
+    position: absolute;
+    margin: 0; /* Reset margin to ensure consistent spacing */
+    /* line-height: 15.5; /* Set line-height for consistent spacing */
+    top:20%;
+    left:10.5%;
+    color:rgb(36, 34, 34);
+    
+} 
+
+.box {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border: 10px solid #3c1d37;
+    padding: 10px;
+    height: 50%;
+    top:80%;
+     margin-left:  80px;
+     margin-right: 80px;
+    background-color: rgb(231, 215, 228);
+    
+}
+
+.b1, .b2 ,.b3{
+    text-align: inline;
+    margin-left: 590px;
+   
+}
+#s1,#s2,#s3{
+    color:rgb(48, 18, 138);
+}
